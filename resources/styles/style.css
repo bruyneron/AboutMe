@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6em;
+    background-color: black;
+    color: white;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 1px;
+    overflow: hidden; /* Caution */
+    /* word-spacing: 3px; */
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.intro-name {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* padding: 5px 5px; */
+    font-size: 60%;
+    text-align: center;
+}
+
+.intro-name h1 {
+    padding: 0 6px;
+
+}
+
+.intro-name h3 {
+    background-color: black;
+    padding: 10px;
+}
+
+.btn-nav {
+    position: absolute;
+    top: 3%;
+    left: 1.5%;
+    /* background-color: white; */
+}
+
+.btn-nav a {
+    text-decoration: none;
+    font-size: 150%;
+    color: red;
+}
+
+.btn-nav a:hover {
+    color: white;
+    background-color: red;
+}
+
+.expanded-nav-container {
+    visibility: hidden;
+    /* transition: visibility 0.5s; */
+}
+
+.show {
+    visibility: visible;
+}
+
+.expanded-nav {
+    position: absolute;
+    top: 100px;
+}
+
+.expanded-nav li {
+    text-decoration: none;
+    display: block;
+    margin: 40px 0;
+    font-size: 60%;
+}
+
+.expanded-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 40%;
+}
